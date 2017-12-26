@@ -1,0 +1,22 @@
+html {
+    background: #559a66;
+    background: -moz-radial-gradient(center,ellipse cover,#559a66 0,#002a00 100%);
+    background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,#559a66),color-stop(100%,#002a00));
+    background: -webkit-radial-gradient(center,ellipse cover,#559a66 0,#002a00 100%);
+    background: -o-radial-gradient(center,ellipse cover,#559a66 0,#002a00 100%);
+    background: -ms-radial-gradient(center,ellipse cover,#559a66 0,#002a00 100%);
+    background: radial-gradient(ellipse at center,#559a66 0,#002a00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@lightgreen',endColorstr='@darkgreen',GradientType=1);
+    min-height: 100%;
+    font-size: 100%;
+}
+#canvas-table {
+    border: 10px solid white;
+    position: absolute;
+    margin: 75px 122px;
+    height: 250px;
+    width: 420px;
+    border-radius: 200px;
+    opacity: .5;
+    z-index: 1;
+}
